@@ -2,10 +2,33 @@
 @import "alert";
 @import "avatar";
 @import "banner";
+@import "card";
 @import "navbar";
 
 body {
   background-size: cover;
   background-position: center;
-  background: url("chalk.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url("../assets/chalk.jpg");
 }
+
+.illustrations {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+}
+
+ #border {
+  border-right: 2px solid #4F4F4F;
+  border-left: 2px solid #4F4F4F;
+}
+
+h1, h2, h3, h4, h5, h6 {color: white;}
