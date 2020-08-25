@@ -8,5 +8,16 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 62px;
+}
+
+.fa-search {
+  color: white!important;
+}
+
+.navbar .search {
+  .search-input {
+    width: 80%;
+    display: inline-block;
+  }
 }
