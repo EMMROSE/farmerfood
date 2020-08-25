@@ -12,6 +12,7 @@
   height: 200px;
   background: transparent;
   margin: auto;
+  margin-top: 16px;
   position: relative;
   z-index:1;
   border-radius: 10px 10px 10px 10px;
@@ -27,19 +28,21 @@
 .top {
   height: 80%;
   width: 100%;
-  position: relative;
+  background-color: white;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
   img {
-    position: absolute;
     height: auto;
-    width: 75%;
-    top: 16px;
-    left:0;
+    width: 60%;
     object-fit: cover;
+    margin: auto;
+    display: block;
   }
 }
 
 .bottom {
-  padding: 20px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
